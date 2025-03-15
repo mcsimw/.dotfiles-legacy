@@ -1,4 +1,4 @@
-# Retrieve the theme settings
+# Retrieve the theme settings for gruvbox-dark
 export def main [] {
     return {
         binary: '#b16286'
@@ -132,7 +132,6 @@ export module activate {
 
 # Activate the theme when sourced
 use activate
-$env.config.show_banner = false
 
 $env.config = {
   show_banner: false
