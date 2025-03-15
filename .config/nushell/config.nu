@@ -133,3 +133,8 @@ export module activate {
 # Activate the theme when sourced
 use activate
 $env.config.show_banner = false
+
+$env.config = {
+  config.show_banner = false
+  table.mode = 'none'
+}
