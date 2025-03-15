@@ -135,6 +135,6 @@ use activate
 $env.config.show_banner = false
 
 $env.config = {
-  config.show_banner = false
-  table.mode = 'none'
+  show_banner: false
+  table: { mode: 'none' }
 }
